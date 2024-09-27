@@ -13,17 +13,7 @@ function App() {
     <>
       <Router>
         <Navbar/>
-        <Search/>
-        {/* <Header CartItem={CartItem} /> */}
-        <Routes>
-          {/* <Route path='/' exact>
-            <Pages productItems={productItems} addToCart={addToCart} shopItems={shopItems} />
-          </Route> */}
-          {/* <Route path='/cart' exact>
-            <Cart CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} />
-          </Route> */}
-        </Routes>
-        {/* <Footer /> */}
+        {/* <Search/> */}
       </Router>
     </>
   );
